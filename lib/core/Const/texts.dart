@@ -3,7 +3,7 @@
 class Texts {
   String language = Settings.language;
   String? help;
-  String? desireAssistant;
+  String? seeking vision;
   String? subDesireAssistant;
   String? join;
   String? subJoin;
@@ -25,9 +25,9 @@ class Texts {
   Texts() {
     if(language == "English") {
       help = "Help";
-      desireAssistant = "Desire assistant";
-      join = "Join our family";
-      subJoin = "Become a part of our family";
+      desireAssistant = "seeking vision";
+      join = "share your vision";
+      subJoin = "Become a part of our team";
       subDesireAssistant = "Call someone from our team";
       welcome = "We bring you Clarity";
       email= "Email";
